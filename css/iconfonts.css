@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('../fonts/icons.eot?bq8qux');
+  src:  url('../fonts/icons.eot?bq8qux#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?bq8qux') format('truetype'),
+    url('../fonts/icons.woff?bq8qux') format('woff'),
+    url('../fonts/icons.svg?bq8qux#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::before, [class*=" _icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-twitter:before {
+  content: "\e902";
+}
+._icon-arrow-left:before {
+  content: "\e903";
+}
+._icon-arrow-right:before {
+  content: "\e904";
+}
+._icon-facebook:before {
+  content: "\e905";
+}
+._icon-github:before {
+  content: "\e906";
+}
+._icon-slack:before {
+  content: "\e907";
+}
+._icon-check:before {
+  content: "\e900";
+}
+._icon-star:before {
+  content: "\e901";
+}
+
