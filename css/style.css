@@ -1740,8 +1740,8 @@ body {
 .app__image {
   margin-left: -8%;
 }
-img{
-		width: 100%;
+.app__image img{
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
